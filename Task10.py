@@ -16,7 +16,7 @@ for i in range(count):
         if side != "орел" and side != "решка":
             print("У вас монета на ребре??? Её тоже перевернем")
             count_mistake += 1
-if count_avers >= count_revers + count_mistake:
+if count_avers >= count_revers:
     print(f"Необходимо перевернуть {count_revers + count_mistake} монет")
 else:
     print(f"Необходимо перевернуть {count_avers + count_mistake} монет")
